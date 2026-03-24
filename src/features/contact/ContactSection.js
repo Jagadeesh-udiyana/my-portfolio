@@ -95,7 +95,7 @@ const ContactSection = () => {
                 <i className={item.icon}></i>
               </div>
               <div className="contact-content">
-                <span className="contact-label">{item.label}</span>
+                {/* <span className="contact-label">{item.label}</span> */}
                 <span className="contact-value">{item.value}</span>
               </div>
             </motion.a>
